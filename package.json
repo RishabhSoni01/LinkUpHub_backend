@@ -1,7 +1,7 @@
 {
   "name": "linkup",
   "version": "1.0.0",
-  "description": "",
+  "description": "hello linkup",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
