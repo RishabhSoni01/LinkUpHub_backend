@@ -4,6 +4,7 @@ const jwt = require('jsonwebtoken');
 
 exports.isAuthenticated=async(req,res,next)=>{
     try{
+        console.log(req.headers);
         const token = req.headers.cookie?.substr(6);
 
         if(!token){
